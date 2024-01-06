@@ -1,0 +1,125 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #272B30;
+}
+
+nav {
+    background-color: #3A497B;
+}
+
+nav .navbar-brand {
+    font-family: 'Nerko One', cursive;
+}
+
+.nav-item .nav-link {
+    font-size: 12px;
+}
+
+nav img {
+    width: 50PX;
+    height: 30px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0099CC;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: .3s all ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0099CC;
+}
+
+header img {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+
+/* *********************************** */
+
+
+/* data  */
+
+#data-show {
+    background-color: #272B30;
+    filter: grayscale(0.7);
+    transition: .5s all;
+    cursor: pointer;
+}
+
+#title {
+    font-size: 10px;
+}
+
+.desc {
+    height: 120px;
+    font-size: 10px;
+}
+
+.footer-btn {
+    font-size: 8px;
+}
+
+#data-show:hover {
+    transform: scale(1.03);
+    filter: grayscale(0);
+}
+
+#data-show #free {
+    background-color: #4A6792;
+}
+
+#data-show:hover #free {
+    background-color: #0D6EFD;
+}
+
+#data .datasec img {
+    width: 100%;
+}
+
+.footer-btn {
+    background-color: #32383E;
+}
+
+
+/* data  */
+
+
+/* details  */
+
+#details {
+    background-color: #32383E;
+    z-index: 1000;
+}
+
+#details #details-desc {
+    font-size: 12px;
+}
+
+#details i {
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+#details img {
+    width: 100%;
+}
+
+#details #details-btn {
+    border: 1px solid #aca40d;
+    background-color: transparent;
+    transition: .3s all;
+}
+
+#details #details-btn:hover {
+    background-color: #aca40d;
+}
+
+
+/* details  */
